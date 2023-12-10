@@ -26,5 +26,12 @@ namespace LibraryManagementSystem
         {
             this.Hide();
         }
+
+        private void adminLoginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoginAdmin admin = new LoginAdmin();
+            admin.Show();
+
+        }
     }
 }

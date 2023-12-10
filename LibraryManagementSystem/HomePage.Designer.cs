@@ -84,14 +84,15 @@
             // 
             this.adminLoginToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("adminLoginToolStripMenuItem.Image")));
             this.adminLoginToolStripMenuItem.Name = "adminLoginToolStripMenuItem";
-            this.adminLoginToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.adminLoginToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.adminLoginToolStripMenuItem.Text = "Admin Login";
+            this.adminLoginToolStripMenuItem.Click += new System.EventHandler(this.adminLoginToolStripMenuItem_Click);
             // 
             // studentLoginToolStripMenuItem
             // 
             this.studentLoginToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("studentLoginToolStripMenuItem.Image")));
             this.studentLoginToolStripMenuItem.Name = "studentLoginToolStripMenuItem";
-            this.studentLoginToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.studentLoginToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.studentLoginToolStripMenuItem.Text = "Student Login";
             // 
             // bookSearchToolStripMenuItem1
@@ -174,7 +175,7 @@
             this.btnClose.BackColor = System.Drawing.Color.Red;
             this.btnClose.Location = new System.Drawing.Point(1008, 0);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(43, 40);
+            this.btnClose.Size = new System.Drawing.Size(43, 33);
             this.btnClose.TabIndex = 7;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
