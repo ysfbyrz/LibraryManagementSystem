@@ -55,7 +55,7 @@
             // 
             // txtpassword
             // 
-            this.txtpassword.BackColor = System.Drawing.SystemColors.Info;
+            this.txtpassword.BackColor = System.Drawing.Color.Wheat;
             this.txtpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtpassword.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtpassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(36)))), ((int)(((byte)(55)))));
@@ -149,7 +149,7 @@
             this.Controls.Add(this.txtpassword);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "LoginAdmin";
-            this.Text = "LoginAdmin";
+            this.Text = "Admin";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

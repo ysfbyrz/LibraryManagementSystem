@@ -66,7 +66,9 @@ namespace LibraryManagementSystem
             da.Fill(ds);
             if (ds.Tables[0].Rows.Count != 0)
             {
-
+                this.Hide();
+                AdminDashboard dsa = new AdminDashboard();
+                dsa.Show();
             }
             else
             {
